@@ -2,3 +2,41 @@ body {
   padding-top: 3.5rem;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 4em;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #3f3f3f;
+  color: white;
+}
+
+.fa-envelope {
+  background: #d71414;
+  color: white;
+}
+
+.row-centered {text-align:center;}
+.col-centered { display:inline-block; float:none; margin-right:-4px;}
+
+
+.carousel .carousel-indicators li {background-color: black;}
+
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
